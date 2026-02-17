@@ -221,6 +221,7 @@ Expected output:
 - Confirm the policy grants permissions to the correct compartment
 
 
+
 2) CLI works with config but not with Instance Principals
 
 - Make sure you include:
@@ -232,11 +233,15 @@ Expected output:
 Check that the VM can reach OCI services (network/DNS/proxy)
 
 
+
+
 3) .NET app fails but CLI works
 
 - Ensure the app runs on the same VM that has Instance Principal permissions
 
 - Verify the required OCI SDK packages are installed
+
+
 
 
 **Conclusion**
@@ -256,5 +261,6 @@ In this demo:
 **Author**
 
 **Ivan Vasquez**
+
 LAD A-Team Cloud Solution Specialist
 Oracle Cloud Infrastructure (OCI)
