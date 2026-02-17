@@ -263,4 +263,5 @@ In this demo:
 **Ivan Vasquez**
 
 LAD A-Team Cloud Solution Specialist
+
 Oracle Cloud Infrastructure (OCI)
