@@ -214,26 +214,27 @@ Expected output:
 ## Troubleshooting
 1) NotAuthorizedOrNotFound / 403 Forbidden
 
-Confirm the Dynamic Group rule uses the correct instance OCID
+- Confirm the Dynamic Group rule uses the correct instance OCID
 
-Confirm the Policy is created in the correct place (tenancy vs compartment)
+- Confirm the Policy is created in the correct place (tenancy vs compartment)
 
-Confirm the policy grants permissions to the correct compartment
+- Confirm the policy grants permissions to the correct compartment
 
 2) CLI works with config but not with Instance Principals
 
-Make sure you include:
+- Make sure you include:
 
+```
 --auth instance_principal
-
+```
 
 Check that the VM can reach OCI services (network/DNS/proxy)
 
 3) .NET app fails but CLI works
 
-Ensure the app runs on the same VM that has Instance Principal permissions
+- Ensure the app runs on the same VM that has Instance Principal permissions
 
-Verify the required OCI SDK packages are installed
+- Verify the required OCI SDK packages are installed
 
 Conclusion
 
