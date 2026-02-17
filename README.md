@@ -121,7 +121,7 @@ dotnet add package OCI.DotNetSDK.Keymanagement
 dotnet add package OCI.DotNetSDK.Identity
 ```
 
-3. Update ´Program.cs´
+3. Update `Program.cs`
 Replace the compartment OCID with yours.
 
 ```
