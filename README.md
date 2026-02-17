@@ -6,8 +6,6 @@ This tutorial explains how to use **OCI Instance Principals** to allow an **Orac
 
 It also includes a practical **OCI .NET SDK** example that authenticates using Instance Principals and lists **Vaults** and **Secrets**.
 
-> **Typical use case:** Integrations running on a VM (for example, agents, scripts, or middleware related to OIC) that need secure access to OCI resources using the VM identity.
-
 ---
 
 ## Prerequisites
